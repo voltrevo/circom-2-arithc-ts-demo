@@ -94,6 +94,9 @@ function App() {
           onInput={(e) => setSrc((e.target as HTMLTextAreaElement).value)}
         >{src}</textarea>
       </div>
+      <div>
+        <a href="https://github.com/voltrevo/circom-2-arithc-ts-demo">View Source</a>
+      </div>
     </div>
   )
 }
